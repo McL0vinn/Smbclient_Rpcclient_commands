@@ -21,7 +21,7 @@ $> smbclient //192.168.0.1/IPC$ -U SUPERBAD\\Mclovin -m SMB3
 
 Connect to the specified share on the server (IPC$) as the SUPERBAD domain user Mclovin over SMB3
 
----------------------------------------------------------------------------
+*****************************************************************************
 
 
 $> rpcclient -U Mclovin 192.168.0.1
@@ -56,3 +56,7 @@ $> srvinfo
 $> queryuser 500
 - Shows a vast amount of information about the account with RID=500 ( which means admin in this case). Info such as username,full name, last time user set the password for this acount,amount of logon failures, when was the last time user logged on etc.
 - If you see a Time vaue ( e.g Logon Time,Logoff Time,password last set time etc) of 01 Jan 1970  --> that means the account has not interactively logged in on the Windows system
+
+
+
+
