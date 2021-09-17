@@ -58,5 +58,5 @@ $> queryuser 500
 - If you see a Time vaue ( e.g Logon Time,Logoff Time,password last set time etc) of 01 Jan 1970  --> that means the account has not interactively logged in on the Windows system
 
 
-
+*************************************************************************************
 
