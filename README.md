@@ -1,4 +1,4 @@
-Below is a number of commands for smbclient and rpcclient tools that can be used either for offensive or defensive purposes.
+Below is a number of commands for smbclient and rpcclient tools that can be used either for offensive or defensive purposes as well as some Net commands for SMB sessions.
 You need a valid username/password.
 
 ****************************************************************
