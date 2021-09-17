@@ -62,12 +62,15 @@ $> queryuser 500
 
 - When your machine is acting as a client and want to see the outbound SMB activity
 
-C:\> net use = displays the target machine and the share to which you are connected
-C:\> net use \\192.168.1.1 /del = drops the SMB session
-C:\>net use * /del = drops all outbound SMB sessions
+C:\> net use = displays the target machine and the share to which you are connected.
+
+C:\> net use \\192.168.1.1 /del = drops the SMB session.
+
+C:\>net use * /del = drops all outbound SMB sessions.
 
 - When your machine is acting as a server and want to see the inbound SMB activity
 
-C:\>net session = list the inbound sessions
-C:\>net session \\192.168.1.1 /del = drops the inbound SMB session
+C:\>net session = list the inbound sessions.
+
+C:\>net session \\192.168.1.1 /del = drops the inbound SMB session.
 
